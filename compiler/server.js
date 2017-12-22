@@ -7,8 +7,8 @@ app.get('/', (request, response) => {
   response.sendFile(path.resolve(__dirname, '../docs/index.html'));
 });
 
-app.get('/favicon.ico', (request, response) => {
-  response.sendFile(path.resolve(__dirname, '../docs/favicon.ico'));
+app.get('/:html', (request, response) => {
+  response.sendFile(path.resolve(__dirname, '../docs/' + request.params.html));
 });
 
 require('http')
