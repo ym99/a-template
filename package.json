@@ -6,9 +6,13 @@
     "start": "node compiler/server.js"
   },
   "author": "ym99",
-  "license": "GNU-3",
+  "license": "UNLICENSED",
   "devDependencies": {
     "express": "^4.15.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ym99/a-template.git"
   },
   "dependencies": {}
 }
